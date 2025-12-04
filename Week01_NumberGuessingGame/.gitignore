@@ -1,0 +1,17 @@
+# Ignore compiled binaries
+*.exe
+*.out
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore build folders
+build/
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore VS Code workspace settings
+.vscode/

@@ -88,5 +88,4 @@ Feel free to open issues or recommend new project ideas.
 ## 📬 Contact  
 
 If you'd like to discuss C++, projects, or collaboration:  
-**Author:** Your Name  
-**LinkedIn:** Your Profile Link
+**Author:** Kabindra Pant 

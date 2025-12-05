@@ -1,4 +1,5 @@
 run = "g++ Week01_NumberGuessingGame/src/main.cpp -std=c++17 -O2 -o main && ./main"
+modules = ["cpp-clang14"]
 
 [agent]
 expertMode = true

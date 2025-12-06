@@ -1,51 +1,26 @@
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
-using namespace std;
-
-int generateRandomNumber(int max) {
-    return rand() % max + 1;
-}
-
-void playGame(int maxNumber, int maxAttempts) {
-    int number = generateRandomNumber(maxNumber);
-    int guess, attempts = 0;
-    cout << "Guess the number between 1 and " << maxNumber << ":\n";
-
-    while(attempts < maxAttempts) {
-        cout << "Enter your guess: ";
-        cin >> guess;
-        attempts++;
-        if(guess == number) {
-            cout << "Congratulations! You guessed in " << attempts << " attempts.\n";
-            return;
-        } else if(guess < number) {
-            cout << "Too low!\n";
-        } else {
-            cout << "Too high!\n";
-        }
-    }
-    cout << "Sorry! The number was " << number << ".\n";
-}
 
 int main() {
-    srand(time(0));
-    char choice;
-    do {
-        int level;
-        cout << "Choose difficulty: 1-Easy, 2-Medium, 3-Hard: ";
-        cin >> level;
+  int num;
+  int guess;
+  int tries = 0;
 
-        switch(level) {
-            case 1: playGame(50, 10); break;
-            case 2: playGame(100, 7); break;
-            case 3: playGame(200, 5); break;
-            default: cout << "Invalid choice!\n"; break;
-        }
+  srand(time(NULL));
+  num = (rand() % 100) + 1;
 
-        cout << "Play again? (y/n): ";
-        cin >> choice;
-    } while(choice == 'y' || choice == 'Y');
+  std::cout << "******* NUMBER GUESSING GAME *******" << std::endl;
+  do {
+    std::cout << "Enter a guess between (1-100):";
+    std::cin >> guess;
+    tries++;
+    if (guess > num) {
+      std::cout << "Too high!" << std::endl;
+    } else if (guess < num) {
+      std::cout << "Too low!" << std::endl;
+    } else {
+      std::cout << "CORRECT! # of tries: " <<tries << std::endl;
+    }
 
-    return 0;
+  } while (guess != num);
+  std::cout << "***************************************" << std::endl;
 }

@@ -1,0 +1,3 @@
+Math	98
+English	90
+AVERAGE 94

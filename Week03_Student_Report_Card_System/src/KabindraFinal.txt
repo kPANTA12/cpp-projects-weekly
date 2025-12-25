@@ -1,0 +1,9 @@
+Math	99
+English	89
+AVERAGE 94
+
+--- OVERALL RESULT ---
+First Terminal (20%)  : 19.4
+Second Terminal (20%) : 18.8
+Final Exam (60%)      : 56.4
+TOTAL PERCENTAGE     : 94.6%

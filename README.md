@@ -25,7 +25,6 @@ Complete **1 C++ project every week** to build consistency, mastery, and hands-o
 ### 🔜 Upcoming Projects
 | Week | Project Name |
 |------|--------------|
-
 | 04 | To-Do List (File Handling) |
 | 05 | Bank Management System (OOP) |
 | 06 | Library Management System |

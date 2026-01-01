@@ -20,11 +20,12 @@ Complete **1 C++ project every week** to build consistency, mastery, and hands-o
 |------|--------------|-------------|
 | 01 | Number Guessing Game | Random number generator + loops + attempts tracking |
 | 02   | Advanced Calculator   | Calculator for int, float, complex, and string using OOP and templates |
+| 03 | Student Report Card System |
 
 ### 🔜 Upcoming Projects
 | Week | Project Name |
 |------|--------------|
-| 03 | Student Report Card System |
+
 | 04 | To-Do List (File Handling) |
 | 05 | Bank Management System (OOP) |
 | 06 | Library Management System |
